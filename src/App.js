@@ -2,7 +2,6 @@
 // [Canvas content of App.js from user’s code]
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
