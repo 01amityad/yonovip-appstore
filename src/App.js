@@ -6,6 +6,11 @@ import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
 import { createClient } from "@supabase/supabase-js";
+import PublicAppGallery from "./PublicAppGallery";
+// ...
+function App() {
+  return <PublicAppGallery />;
+}
 
 const supabaseUrl = "https://qptkjqjhxxoplhvvkjum.supabase.co";
 const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...";
